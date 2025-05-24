@@ -39,12 +39,18 @@ git clone https://github.com/KrishanMohanDev/EagleEye.git
 cd EagleEye
 ```
 
-### 📁 2. Download Pretrained Weights
+### 📁 2. Download Required Files
 
-⚠️ **Weights are not stored in this repo due to size limits.**  
-Download all Weapon model weights (~500MB+) from the link below and place them inside the respective folders in the `Models/Weapon_Detection/` directory.
+⚠️ **Only one pretrained weight file is used in Weapon Detection.**  
+📥 **[Download yolov3_training_2000.weights](https://drive.google.com/file/d/15_5JIgPdkNJqjejdFTqibuVjst7VoPQJ/view?usp=sharing)**  
+Place the file inside:
 
-📥 **[Download Model Weights](https://drive.google.com/file/d/15_5JIgPdkNJqjejdFTqibuVjst7VoPQJ/view?usp=sharing)**  
+```
+Models/Weapon_Detection/yolov3_training_2000.weights
+```
+
+📥 **[Download Sample Input Videos](https://drive.google.com/file/d/1ecGiZQi2qHK8she0C3RqM8BQ9dqxErYe/view?usp=sharing)**  
+Extract and place them inside the `Input Video/` folder.
 
 ---
 
@@ -77,12 +83,36 @@ The app will open a GUI for selecting the type of detection (car accident, weapo
 
 ---
 
-## 📸 Sample Input Videos
+## 🖼️ Screenshots
 
-A few sample test videos are already included in the `Input Video/` folder for quick testing.
-Download all Video input (~500MB+) from the link below.
+Here are some screenshots of the application:
 
-📥 **[Download sample input video](https://drive.google.com/file/d/1ecGiZQi2qHK8she0C3RqM8BQ9dqxErYe/view?usp=sharing)**  
+### Main Menu
+![Main Menu](https://github.com/user-attachments/assets/98f5930f-f107-4ba6-a8b9-888e31b5ce34)
+
+
+### Detection Selection UI
+Detection page:
+![Detection UI](https://github.com/user-attachments/assets/5b2b5343-a073-462e-8ecf-d48d576de0df)
+
+Browse File:
+![Detection UI](https://github.com/user-attachments/assets/4787ddbe-33fe-4448-892f-5165e38e4149)
+
+Fall Detection:
+![Detection UI](https://github.com/user-attachments/assets/b59a5c46-d843-4ec0-9f7e-561fd5123912)
+
+License Plate Recognition:
+![Detection UI](https://github.com/user-attachments/assets/7c568087-c603-46ee-9ca3-877c371e04de)
+
+Crowd Detection:
+![Detection UI](https://github.com/user-attachments/assets/82000c92-7481-41f0-aa14-256ebcceb1e0)
+
+Weapon Detection:
+![Detection UI](https://github.com/user-attachments/assets/7630118e-8781-45ff-b570-c120eac7e343)
+
+Car Accident Detection:
+![Detection UI](https://github.com/user-attachments/assets/f5020954-20d6-4cf2-bc98-a402095ffb0e)
+
 
 ---
 
@@ -92,6 +122,14 @@ Download all Video input (~500MB+) from the link below.
 - Object theft detection  
 - Web app version of EagleEye  
 - Real-time camera integration  
+
+
+---
+
+## 📚 Documentation
+
+📄 **[Download Project Report (PDF)](https://drive.google.com/file/d/1OEH82bHdXVZ5XheYCZBbmDs8nGdGIjHm/view?usp=sharing)**  
+📊 **[Download Presentation (PDF)](https://drive.google.com/file/d/1tQExGVgASeVtGq5SCG0R9vtVZwTSbu4y/view?usp=sharing)**
 
 ---
 
