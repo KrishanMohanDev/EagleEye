@@ -42,10 +42,9 @@ cd EagleEye
 ### 📁 2. Download Pretrained Weights
 
 ⚠️ **Weights are not stored in this repo due to size limits.**  
-Download all required model weights (~500MB+) from the link below and place them inside the respective folders in the `Models/` directory.
+Download all Weapon model weights (~500MB+) from the link below and place them inside the respective folders in the `Models/Weapon_Detection/` directory.
 
-📥 **[Download Model Weights](https://drive.google.com/your-weights-download-link)**  
-> Replace `your-weights-download-link` with the actual Google Drive or cloud storage link.
+📥 **[Download Model Weights](https://drive.google.com/file/d/15_5JIgPdkNJqjejdFTqibuVjst7VoPQJ/view?usp=sharing)**  
 
 ---
 
@@ -81,6 +80,9 @@ The app will open a GUI for selecting the type of detection (car accident, weapo
 ## 📸 Sample Input Videos
 
 A few sample test videos are already included in the `Input Video/` folder for quick testing.
+Download all Video input (~500MB+) from the link below.
+
+📥 **[Download sample input video](https://drive.google.com/file/d/1ecGiZQi2qHK8she0C3RqM8BQ9dqxErYe/view?usp=sharing)**  
 
 ---
 
@@ -106,5 +108,3 @@ B.Tech - Artificial Intelligence & Data Science
 This project is licensed under the MIT License – feel free to use and modify.
 
 ---
-
-> Let me know when you’ve uploaded the weights (e.g., to Google Drive or Dropbox), and I’ll insert the real link into the README.
